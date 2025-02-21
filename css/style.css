@@ -1,0 +1,19 @@
+@import url(./variaveis.css);
+@import url(./cabecalho.css);
+@import url(./principal.css);
+@import url(./destaque.css);
+@import url(./atividade.css);
+@import url(/css/sobre.css);
+@import url(./experiencia.css);
+@import url(./formacao.css);
+@import url(./idiomas.css);
+@import url(./viram.css);
+@import url(./conhece.css);
+
+body{
+    background-color: var(--fundo-escuro);
+    font-style: 16px;
+    font-family: var(--roboto);
+}
+
+

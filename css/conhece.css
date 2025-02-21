@@ -1,0 +1,43 @@
+.conhece{
+    background-color: var(--fundo-card);
+    color: var(--texto-principal);
+    width: 420px;
+    border-radius: 10px;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+
+.conhece .titulo{
+    font-size: 20px;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.contaitner__conhece{
+    display: flex;
+    gap: .5em;
+    margin-bottom: 2em;
+}
+
+.contaitner__conhece img{
+    height: 48px;
+}
+
+.contaitner__conhece h3{
+    font-weight: bold;
+}
+
+.contaitner__conhece p{
+    color: var(--texto-secundario);
+    margin: .3em 0 1.2em 0;
+}
+
+.btn__conhece{
+    border: 1px solid var(--texto-principal);
+    border-radius: 15px;
+    padding: .4em 2em;
+    color: var(--texto-principal);
+    font-weight: bold;
+    text-decoration: none;
+}
