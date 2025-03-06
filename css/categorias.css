@@ -1,0 +1,52 @@
+.categoria{
+    color: var(--branco);
+    margin: 0 3em;
+}
+
+.categoria h2{
+    margin: 1em 0 .5em 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.minha__lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.minha__lista__item{
+    position: relative;
+    transform: scale(1);
+    opacity: .6;
+    transition: all .5s;
+}
+
+.minha__lista__item:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.minha__lista__item::after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: var(--vermelho);
+    opacity: 0;
+}
+
+.minha__lista__item:hover::after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 342px;
+    height: 192px;
+    background-color: var(--vermelho);
+    opacity: .5;
+    transition: all .5s;
+}

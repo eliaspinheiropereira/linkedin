@@ -1,65 +1,65 @@
-/* cabecalho */
 .cabecalho{
-    background-color: var(--fundo-card);
-    display: flex;
-    justify-content: center;
-}
-
-.container__menu{
-    display: flex;
-}
-
-.container__logo{
-    display: flex;
-    align-items: center;
-    gap: .5em;
-    /* margin-right: 20em; */
-}
-
-.container__logo input{
-    padding: .8em;
-    width: 280px;
-    border-radius: 5px;
-    border: none;
-    background-color: var(--input);
-    color: var(--texto-principal);
-}
-
-.container__logo input::placeholder{
-    color: var(--texto-principal);
-    padding-left: 2.5em;
-    background-image: url(../img/pesquisar.png);
+    background-image: linear-gradient(to bottom, var(--preto) 5%, transparent 60%, var(--preto) 95%), url(../img/banner\ 1.png);
     background-repeat: no-repeat;
-    background-position: .5em;
-    background-size: 16px;
-}
-
-.lista{
-    display: flex;
-    margin-left: 350px;
-}
-
-.item a img{
-    width: 25px;
-    height: 24px;
-    margin-bottom: .4em;
-}
-
-.item a{
+    background-size: cover;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: var(--texto-principal);
+}
+
+.cabecalho__info{
+    margin-top: 200px;
+    margin-left: 3em;
+    color: var(--branco);
+}
+
+.cabecalho__imagem{
+    width: 550px;
+}
+
+.cabecalho__info p{
+    width: 550px;
+    line-height: 1.5;
+    margin: 1.2em 0;
+}
+
+
+.btn{
+    background-color: var(--branco);
+    color: var(--preto);
     text-decoration: none;
+    font-weight: bold;
+    padding: .8em 1.5em;
+    margin-right: 1em;
 }
 
-.item{
-    padding: 1em 0;
-    margin-left: 1.5em;
+.btn__play::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/play.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 6px;
+    margin-right: 5px;
 }
 
-.item:nth-child(5){
-    border-right: 1px solid var(--texto-secundario);
-    padding: 1em 1em 1em 0;
+.btn__transparente{
+    background-color: rgba(255,255,255, .5);
+    color: var(--branco);
+}
+
+.btn__transparente::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/informacoes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 6px;
+    margin-right: 5px;
 }

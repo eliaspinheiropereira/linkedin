@@ -1,0 +1,15 @@
+div.swiper-button-next::after, div.swiper-button-prev::after{
+    color: var(--branco);
+}
+
+div .minha__lista__item{
+    transform: scale(1);
+}
+
+div .minha__lista__item:hover{
+    transform: scale(1.1);
+}
+
+.swiper-wrapper{
+    padding: .5em 0;
+}

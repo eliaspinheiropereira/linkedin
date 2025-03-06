@@ -1,0 +1,31 @@
+.menu{
+    margin-top: 1em;
+    padding: 1em 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__logo__links{
+    display: flex;
+    align-items: center;
+}
+
+.menu__logo__links img{
+    width: 80px;
+}
+
+.lista{
+    display: flex;
+    gap: 1em;
+    margin-left: 2em;
+}
+
+.item a{
+    color: var(--cinza);
+    text-decoration: none;
+}
+
+.item img{
+    width: 24px;
+    height: 24px;
+}

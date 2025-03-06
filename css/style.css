@@ -1,19 +1,14 @@
 @import url(./variaveis.css);
 @import url(./cabecalho.css);
-@import url(./principal.css);
-@import url(./destaque.css);
-@import url(./atividade.css);
-@import url(/css/sobre.css);
-@import url(./experiencia.css);
-@import url(./formacao.css);
-@import url(./idiomas.css);
-@import url(./viram.css);
-@import url(./conhece.css);
+@import url(./menu.css);
+@import url(./categorias.css);
+@import url(./animacao.css);
+@import url(./rodape.css);
 
-body{
-    background-color: var(--fundo-escuro);
-    font-style: 16px;
-    font-family: var(--roboto);
+html{
+    font-size: 16px;
 }
 
-
+body{
+    background-color: var(--preto);
+}
